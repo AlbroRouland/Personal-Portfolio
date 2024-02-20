@@ -1,0 +1,88 @@
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; 
+            margin: 0;
+            background-image: url("https://i.pinimg.com/564x/4f/45/e9/4f45e99fef1f658b5a1d57a0fa5987c0.jpg");
+            background-size: 101%;
+        }
+
+        .card {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 20%;
+            border-radius: 5px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            position: relative;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Changed alignment to flex-end */
+            width: 60%;
+        }
+
+        .hobbies,
+        .interests {
+            width: 100%;
+            margin-left: auto; /* Added margin-left: auto; to move to the right */
+        }
+
+        .hobbies .card,
+        .interests .card {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .hobbies h2,
+        .interests h2,
+        .hobbies ul,
+        .interests ul,
+        .hobbies ul li,
+        .interests ul li {
+            font-size: 16px; 
+            text-align: left;
+            color: white;
+        }
+
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            font-family: monospace;
+            color: white;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+        }
+
+        h4 {
+            color: white;
+            text-align: center;
+            font-size: larger;
+        }
+        .bigname{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+            font-size: xx-large;
+            font: bolder;
+        }
